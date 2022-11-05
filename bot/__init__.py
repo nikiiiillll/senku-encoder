@@ -47,7 +47,7 @@ LOGS = getLogger(__name__)
 
 
 try:
-    bot = TelegramClient(None, APP_ID, API_HASH, IPV6=TRUE)
+    bot = TelegramClient(None, APP_ID, API_HASH, IPV6)
 except Exception as e:
     LOGS.info("Environment vars are missing! Kindly recheck.")
     LOGS.info("Bot is quiting...")
