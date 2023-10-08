@@ -1,4 +1,5 @@
 aiohttp
+ffmpeg
 python-decouple
 psutil
 tgcrypto
